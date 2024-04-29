@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:typed_data';
-import '../schema/structs/index.dart';
 
 import '/flutter_flow/flutter_flow_util.dart';
 import 'api_manager.dart';
@@ -27,7 +25,7 @@ class GetDadosUserCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "token": "${token}"
+  "token": "$token"
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'getDadosUser',
@@ -85,10 +83,10 @@ class CreateUserCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "nome": "${nome}",
-  "email": "${email}",
-  "nomeLoja": "${nomeLoja}",
-  "senha": "${senha}"
+  "nome": "$nome",
+  "email": "$email",
+  "nomeLoja": "$nomeLoja",
+  "senha": "$senha"
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'createUser',
@@ -168,9 +166,9 @@ class UpdateURLminhaLojaCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "idUser": ${idUser},
-  "nomeURL": "${nomeURL}",
-  "token": "${token}"
+  "idUser": $idUser,
+  "nomeURL": "$nomeURL",
+  "token": "$token"
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'updateURLminhaLoja',
@@ -209,15 +207,15 @@ class CreateLojaCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "nomeLoja": "${nomeLoja}",
-  "dataCriacao": "${dataCriacao}"
+  "nomeLoja": "$nomeLoja",
+  "dataCriacao": "$dataCriacao"
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'createLoja',
       apiUrl: '${LojaGroup.baseUrl}/minhaLoja:create',
       callType: ApiCallType.POST,
       headers: {
-        'Authorization': 'Bearer ${token}',
+        'Authorization': 'Bearer $token',
       },
       params: {},
       body: ffApiRequestBody,
@@ -249,7 +247,7 @@ class GetMinhaLojaCall {
       apiUrl: '${LojaGroup.baseUrl}/minhaLoja:get',
       callType: ApiCallType.GET,
       headers: {
-        'Authorization': 'Bearer ${token}',
+        'Authorization': 'Bearer $token',
       },
       params: {},
       returnBody: true,
@@ -322,14 +320,14 @@ class UpdateMinhalojaCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "${chave}": "${valor}"
+  "$chave": "$valor"
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'updateMinhaloja',
       apiUrl: '${LojaGroup.baseUrl}/minhaLoja:update',
       callType: ApiCallType.POST,
       headers: {
-        'Authorization': 'Bearer ${token}',
+        'Authorization': 'Bearer $token',
       },
       params: {},
       body: ffApiRequestBody,
@@ -364,7 +362,7 @@ class GetProdCall {
       apiUrl: '${ProdutosGroup.baseUrl}/produto:list?appends=categoriaProduto',
       callType: ApiCallType.GET,
       headers: {
-        'Authorization': 'Bearer ${token}',
+        'Authorization': 'Bearer $token',
       },
       params: {},
       returnBody: true,
@@ -480,14 +478,14 @@ class UpdateProdutoAtivoCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "${chave}": ${valor}
+  "$chave": $valor
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'updateProdutoAtivo',
-      apiUrl: '${ProdutosGroup.baseUrl}/produto:update?filterByTk=${id}',
+      apiUrl: '${ProdutosGroup.baseUrl}/produto:update?filterByTk=$id',
       callType: ApiCallType.POST,
       headers: {
-        'authorization': 'Bearer ${token}',
+        'authorization': 'Bearer $token',
       },
       params: {},
       body: ffApiRequestBody,
@@ -521,7 +519,7 @@ class GetUserCall {
       apiUrl: '${UserGroup.baseUrl}/auth:check',
       callType: ApiCallType.GET,
       headers: {
-        'Authorization': 'Bearer ${token}',
+        'Authorization': 'Bearer $token',
       },
       params: {},
       returnBody: true,
@@ -573,8 +571,8 @@ class LoginCall {
   }) async {
     final ffApiRequestBody = '''
 {
-  "email": "${email}",
-  "password": "${senha}"
+  "email": "$email",
+  "password": "$senha"
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'login',

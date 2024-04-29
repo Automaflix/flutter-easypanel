@@ -1,14 +1,10 @@
-import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'detalhes_produto_catalogo_model.dart';
 export 'detalhes_produto_catalogo_model.dart';
 
@@ -58,7 +54,7 @@ class _DetalhesProdutoCatalogoWidgetState
                 color: FlutterFlowTheme.of(context).secondaryBackground,
               ),
               child: Padding(
-                padding: EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(16.0),
                 child: Wrap(
                   spacing: 0.0,
                   runSpacing: 0.0,
@@ -74,7 +70,7 @@ class _DetalhesProdutoCatalogoWidgetState
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 12.0, 0.0),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8.0),
@@ -111,12 +107,12 @@ class _DetalhesProdutoCatalogoWidgetState
                       ],
                     ),
                     Padding(
-                      padding: EdgeInsets.all(16.0),
+                      padding: const EdgeInsets.all(16.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 4.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
@@ -155,7 +151,7 @@ class _DetalhesProdutoCatalogoWidgetState
                 children: [
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 24.0),
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 24.0),
                     child: Wrap(
                       spacing: 0.0,
                       runSpacing: 0.0,
@@ -174,7 +170,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                   ? (MediaQuery.sizeOf(context).width * 0.5)
                                   : MediaQuery.sizeOf(context).width,
                               height: 400.0,
-                              constraints: BoxConstraints(
+                              constraints: const BoxConstraints(
                                 maxWidth: 750.0,
                               ),
                               decoration: BoxDecoration(
@@ -183,7 +179,7 @@ class _DetalhesProdutoCatalogoWidgetState
                               child: Stack(
                                 children: [
                                   Align(
-                                    alignment: AlignmentDirectional(0.0, 0.0),
+                                    alignment: const AlignmentDirectional(0.0, 0.0),
                                     child: Hero(
                                       tag: 'productShoe',
                                       transitionOnUserGestures: true,
@@ -200,13 +196,13 @@ class _DetalhesProdutoCatalogoWidgetState
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsets.all(16.0),
+                                    padding: const EdgeInsets.all(16.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
                                       children: [
                                         Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 32.0, 0.0, 0.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
@@ -216,7 +212,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                               Card(
                                                 clipBehavior:
                                                     Clip.antiAliasWithSaveLayer,
-                                                color: Color(0x3A000000),
+                                                color: const Color(0x3A000000),
                                                 shape: RoundedRectangleBorder(
                                                   borderRadius:
                                                       BorderRadius.circular(
@@ -227,7 +223,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                                       Colors.transparent,
                                                   borderRadius: 30.0,
                                                   buttonSize: 46.0,
-                                                  icon: Icon(
+                                                  icon: const Icon(
                                                     Icons.arrow_back_rounded,
                                                     color: Colors.white,
                                                     size: 25.0,
@@ -247,13 +243,13 @@ class _DetalhesProdutoCatalogoWidgetState
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 8.0, 0.0, 0.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 16.0, 0.0),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
@@ -266,7 +262,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 16.0, 0.0),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
@@ -287,7 +283,7 @@ class _DetalhesProdutoCatalogoWidgetState
                           width: MediaQuery.sizeOf(context).width >= 768.0
                               ? (MediaQuery.sizeOf(context).width * 0.5)
                               : MediaQuery.sizeOf(context).width,
-                          constraints: BoxConstraints(
+                          constraints: const BoxConstraints(
                             maxWidth: 750.0,
                           ),
                           decoration: BoxDecoration(
@@ -295,13 +291,13 @@ class _DetalhesProdutoCatalogoWidgetState
                                 .secondaryBackground,
                           ),
                           child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 16.0, 0.0, 16.0, 32.0),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24.0, 20.0, 24.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -355,7 +351,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24.0, 4.0, 24.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -383,7 +379,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24.0, 16.0, 24.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -412,7 +408,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       24.0, 4.0, 24.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -447,7 +443,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                   tablet: false,
                                 ))
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 42.0, 16.0, 42.0),
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -457,7 +453,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                         Flexible(
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 16.0, 0.0),
                                             child: FFButtonWidget(
                                               onPressed: () {
@@ -476,14 +472,14 @@ class _DetalhesProdutoCatalogoWidgetState
                                               ),
                                               options: FFButtonOptions(
                                                 height: 50.0,
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         8.0, 0.0, 12.0, 0.0),
                                                 iconPadding:
-                                                    EdgeInsetsDirectional
+                                                    const EdgeInsetsDirectional
                                                         .fromSTEB(
                                                             8.0, 0.0, 0.0, 0.0),
-                                                color: Color(0xFF42C452),
+                                                color: const Color(0xFF42C452),
                                                 textStyle: FlutterFlowTheme.of(
                                                         context)
                                                     .titleSmall
@@ -500,7 +496,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                                                   'Outfit'),
                                                     ),
                                                 elevation: 0.0,
-                                                borderSide: BorderSide(
+                                                borderSide: const BorderSide(
                                                   color: Color(0xFF42C452),
                                                   width: 2.0,
                                                 ),
@@ -511,7 +507,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                         Flexible(
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: FFButtonWidget(
                                               onPressed: () async {
@@ -530,11 +526,11 @@ class _DetalhesProdutoCatalogoWidgetState
                                               ),
                                               options: FFButtonOptions(
                                                 height: 50.0,
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         8.0, 0.0, 12.0, 0.0),
                                                 iconPadding:
-                                                    EdgeInsetsDirectional
+                                                    const EdgeInsetsDirectional
                                                         .fromSTEB(
                                                             8.0, 0.0, 0.0, 0.0),
                                                 color:
@@ -556,7 +552,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                                                   'Outfit'),
                                                     ),
                                                 elevation: 3.0,
-                                                borderSide: BorderSide(
+                                                borderSide: const BorderSide(
                                                   color: Colors.transparent,
                                                   width: 1.0,
                                                 ),
@@ -587,7 +583,7 @@ class _DetalhesProdutoCatalogoWidgetState
               width: double.infinity,
               decoration: BoxDecoration(
                 color: FlutterFlowTheme.of(context).primaryText,
-                boxShadow: [
+                boxShadow: const [
                   BoxShadow(
                     blurRadius: 4.0,
                     color: Color(0x55000000),
@@ -597,7 +593,7 @@ class _DetalhesProdutoCatalogoWidgetState
                     ),
                   )
                 ],
-                borderRadius: BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                   bottomLeft: Radius.circular(0.0),
                   bottomRight: Radius.circular(0.0),
                   topLeft: Radius.circular(16.0),
@@ -605,7 +601,7 @@ class _DetalhesProdutoCatalogoWidgetState
                 ),
               ),
               child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(16.0, 24.0, 16.0, 24.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(16.0, 24.0, 16.0, 24.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -613,7 +609,7 @@ class _DetalhesProdutoCatalogoWidgetState
                     Flexible(
                       child: Padding(
                         padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 16.0, 0.0),
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 16.0, 0.0),
                         child: FFButtonWidget(
                           onPressed: () {
                             print('Button pressed ...');
@@ -629,11 +625,11 @@ class _DetalhesProdutoCatalogoWidgetState
                           ),
                           options: FFButtonOptions(
                             height: 50.0,
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 12.0, 0.0),
-                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                            iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 0.0, 0.0),
-                            color: Color(0xFF42C452),
+                            color: const Color(0xFF42C452),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleSmall
                                 .override(
@@ -646,7 +642,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                       GoogleFonts.asMap().containsKey('Outfit'),
                                 ),
                             elevation: 0.0,
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0xFF42C452),
                               width: 2.0,
                             ),
@@ -657,7 +653,7 @@ class _DetalhesProdutoCatalogoWidgetState
                     Flexible(
                       child: Padding(
                         padding:
-                            EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
+                            const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
                         child: FFButtonWidget(
                           onPressed: () async {
                             context.pushNamed('Checkout');
@@ -673,9 +669,9 @@ class _DetalhesProdutoCatalogoWidgetState
                           ),
                           options: FFButtonOptions(
                             height: 50.0,
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 12.0, 0.0),
-                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                            iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 8.0, 0.0, 0.0, 0.0),
                             color: FlutterFlowTheme.of(context).primary,
                             textStyle: FlutterFlowTheme.of(context)
@@ -690,7 +686,7 @@ class _DetalhesProdutoCatalogoWidgetState
                                       GoogleFonts.asMap().containsKey('Outfit'),
                                 ),
                             elevation: 3.0,
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Colors.transparent,
                               width: 1.0,
                             ),

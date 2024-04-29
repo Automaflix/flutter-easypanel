@@ -6,7 +6,6 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'cadastrar_produto_model.dart';
 export 'cadastrar_produto_model.dart';
 
@@ -62,7 +61,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: AlignmentDirectional(0.0, 1.0),
+      alignment: const AlignmentDirectional(0.0, 1.0),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.start,
@@ -78,7 +77,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
             child: Material(
               color: Colors.transparent,
               elevation: 5.0,
-              shape: RoundedRectangleBorder(
+              shape: const RoundedRectangleBorder(
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(0.0),
                   bottomRight: Radius.circular(0.0),
@@ -88,7 +87,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
               ),
               child: Container(
                 height: 20.0,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(0.0),
@@ -129,7 +128,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 0.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -151,7 +150,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                                 ),
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 16.0, 0.0),
                             child: InkWell(
                               splashColor: Colors.transparent,
@@ -174,7 +173,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 4.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 4.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
                           'd6yfe8tj' /* Insira as informações do seu p... */,
@@ -190,7 +189,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 20.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 20.0, 0.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
@@ -211,17 +210,17 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                                 ),
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 16.0, 0.0, 0.0, 0.0),
                             child: Switch.adaptive(
                               value: _model.switchVariacaoValue ??= false,
                               onChanged: (newValue) async {
                                 setState(() =>
-                                    _model.switchVariacaoValue = newValue!);
+                                    _model.switchVariacaoValue = newValue);
                               },
                               activeColor: FlutterFlowTheme.of(context).success,
-                              activeTrackColor: Color(0xFF9BFFB6),
-                              inactiveTrackColor: Color(0xFFFFD5D5),
+                              activeTrackColor: const Color(0xFF9BFFB6),
+                              inactiveTrackColor: const Color(0xFFFFD5D5),
                               inactiveThumbColor:
                                   FlutterFlowTheme.of(context).alternate,
                             ),
@@ -232,7 +231,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     if (_model.switchVariacaoValue ?? true)
                       Padding(
                         padding:
-                            EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
+                            const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
                         child: Card(
                           clipBehavior: Clip.antiAliasWithSaveLayer,
                           color:
@@ -252,7 +251,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                                       .secondaryBackground,
                                 ),
                                 child: Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
                                       'ei1nymte' /* card variacçao */,
@@ -278,7 +277,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                       ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 24.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 24.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
                           'x0y3eoys' /* Fotos do produto */,
@@ -296,7 +295,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               16.0, 16.0, 0.0, 0.0),
                           child: Container(
                             width: 100.0,
@@ -315,7 +314,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               16.0, 16.0, 0.0, 0.0),
                           child: Container(
                             width: 100.0,
@@ -336,7 +335,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: TextFormField(
                         controller: _model.nomeProdutoTextController,
                         focusNode: _model.nomeProdutoFocusNode,
@@ -364,27 +363,27 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedErrorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               20.0, 32.0, 20.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -402,7 +401,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: TextFormField(
                         controller: _model.precoVendaTextController,
                         focusNode: _model.precoVendaFocusNode,
@@ -430,27 +429,27 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedErrorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               20.0, 32.0, 20.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -470,7 +469,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
                           '5g0ebxs3' /* Opcionais */,
@@ -488,7 +487,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: TextFormField(
                         controller: _model.precoPromocionalTextController,
                         focusNode: _model.precoPromocionalFocusNode,
@@ -516,27 +515,27 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedErrorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               20.0, 32.0, 20.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -557,7 +556,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: FlutterFlowDropDown<String>(
                         controller: _model.dropDownCategoriaValueController ??=
                             FormFieldController<String>(null),
@@ -594,7 +593,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             FlutterFlowTheme.of(context).primaryBackground,
                         borderWidth: 2.0,
                         borderRadius: 8.0,
-                        margin: EdgeInsetsDirectional.fromSTEB(
+                        margin: const EdgeInsetsDirectional.fromSTEB(
                             16.0, 4.0, 16.0, 4.0),
                         hidesUnderline: true,
                         isSearchable: false,
@@ -603,7 +602,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Builder(
                       builder: (context) => Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(
+                        padding: const EdgeInsetsDirectional.fromSTEB(
                             16.0, 12.0, 16.0, 0.0),
                         child: InkWell(
                           splashColor: Colors.transparent,
@@ -618,9 +617,9 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                                   elevation: 0,
                                   insetPadding: EdgeInsets.zero,
                                   backgroundColor: Colors.transparent,
-                                  alignment: AlignmentDirectional(0.0, 0.0)
+                                  alignment: const AlignmentDirectional(0.0, 0.0)
                                       .resolve(Directionality.of(context)),
-                                  child: Container(
+                                  child: const SizedBox(
                                     height: double.infinity,
                                     width: double.infinity,
                                     child: PopupCadastrarCategoriaWidget(),
@@ -633,7 +632,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 4.0, 0.0),
                                 child: Icon(
                                   Icons.add,
@@ -666,7 +665,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: TextFormField(
                         controller: _model.codProdutoTextController,
                         focusNode: _model.codProdutoFocusNode,
@@ -694,27 +693,27 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedErrorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               20.0, 32.0, 20.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -732,7 +731,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: TextFormField(
                         controller: _model.precoCustoTextController,
                         focusNode: _model.precoCustoFocusNode,
@@ -760,27 +759,27 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedErrorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               20.0, 32.0, 20.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -800,7 +799,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
                       child: TextFormField(
                         controller: _model.descricaoProdutoTextController,
                         focusNode: _model.descricaoProdutoFocusNode,
@@ -828,27 +827,27 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           errorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedErrorBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Color(0x00000000),
                               width: 2.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               20.0, 32.0, 20.0, 12.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -873,7 +872,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 24.0, 0.0, 44.0),
                           child: FFButtonWidget(
                             onPressed: () async {
@@ -885,9 +884,9 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                             options: FFButtonOptions(
                               width: 270.0,
                               height: 50.0,
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
-                              iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
                               color: FlutterFlowTheme.of(context).primary,
                               textStyle: FlutterFlowTheme.of(context)
@@ -903,7 +902,7 @@ class _CadastrarProdutoWidgetState extends State<CadastrarProdutoWidget> {
                                                 .titleMediumFamily),
                                   ),
                               elevation: 3.0,
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.transparent,
                                 width: 1.0,
                               ),

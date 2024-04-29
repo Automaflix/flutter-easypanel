@@ -1,9 +1,7 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'catalogo_virtual_model.dart';
 export 'catalogo_virtual_model.dart';
 
@@ -50,7 +48,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
           onPressed: () async {
             await _model.columnController?.animateTo(
               0,
-              duration: Duration(milliseconds: 100),
+              duration: const Duration(milliseconds: 100),
               curve: Curves.ease,
             );
           },
@@ -81,7 +79,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                     color: FlutterFlowTheme.of(context).secondaryBackground,
                   ),
                   child: Padding(
-                    padding: EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.all(16.0),
                     child: Wrap(
                       spacing: 0.0,
                       runSpacing: 0.0,
@@ -97,7 +95,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 12.0, 0.0),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(8.0),
@@ -135,12 +133,12 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                           ],
                         ),
                         Padding(
-                          padding: EdgeInsets.all(16.0),
+                          padding: const EdgeInsets.all(16.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 4.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
@@ -178,10 +176,10 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                 children: [
                   Container(
                     width: 300.0,
-                    decoration: BoxDecoration(),
+                    decoration: const BoxDecoration(),
                     child: Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                       child: TextFormField(
                         controller: _model.searchBarTextController,
                         focusNode: _model.searchBarFocusNode,
@@ -243,7 +241,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                           filled: true,
                           fillColor:
                               FlutterFlowTheme.of(context).secondaryBackground,
-                          contentPadding: EdgeInsetsDirectional.fromSTEB(
+                          contentPadding: const EdgeInsetsDirectional.fromSTEB(
                               24.0, 24.0, 20.0, 24.0),
                           prefixIcon: Icon(
                             Icons.search,
@@ -268,19 +266,19 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
               ),
               Expanded(
                 child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 24.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 24.0),
                   child: Container(
-                    constraints: BoxConstraints(
+                    constraints: const BoxConstraints(
                       maxWidth: 1080.0,
                     ),
-                    decoration: BoxDecoration(),
+                    decoration: const BoxDecoration(),
                     child: SingleChildScrollView(
                       controller: _model.columnController,
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 16.0, 24.0, 0.0, 24.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
@@ -300,17 +298,18 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsets.all(16.0),
+                            padding: const EdgeInsets.all(16.0),
                             child: ListView(
                               padding: EdgeInsets.zero,
                               shrinkWrap: true,
                               scrollDirection: Axis.vertical,
+                              controller: _model.listViewController,
                               children: [
                                 Row(
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 12.0, 0.0),
                                       child: Container(
                                         decoration: BoxDecoration(
@@ -320,7 +319,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                               BorderRadius.circular(8.0),
                                         ),
                                         child: Padding(
-                                          padding: EdgeInsets.all(12.0),
+                                          padding: const EdgeInsets.all(12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
                                               'u044o77h' /* Calçados */,
@@ -348,7 +347,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       ),
                                     ),
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 12.0, 0.0),
                                       child: Container(
                                         decoration: BoxDecoration(
@@ -358,7 +357,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                               BorderRadius.circular(8.0),
                                         ),
                                         child: Padding(
-                                          padding: EdgeInsets.all(12.0),
+                                          padding: const EdgeInsets.all(12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
                                               'xtojyp4v' /* Acessórios */,
@@ -386,7 +385,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       ),
                                     ),
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 12.0, 0.0),
                                       child: Container(
                                         decoration: BoxDecoration(
@@ -396,7 +395,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                               BorderRadius.circular(8.0),
                                         ),
                                         child: Padding(
-                                          padding: EdgeInsets.all(12.0),
+                                          padding: const EdgeInsets.all(12.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
                                               'lmy7j2gz' /* Eletrônicos */,
@@ -426,18 +425,17 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                   ],
                                 ),
                               ],
-                              controller: _model.listViewController,
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 16.0, 0.0, 16.0, 16.0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 16.0, 0.0),
                                   child: Icon(
                                     Icons.sort_by_alpha,
@@ -471,7 +469,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       context.pushNamed(
                                         'detalhesProdutoCatalogo',
                                         extra: <String, dynamic>{
-                                          kTransitionInfoKey: TransitionInfo(
+                                          kTransitionInfoKey: const TransitionInfo(
                                             hasTransition: true,
                                             transitionType:
                                                 PageTransitionType.fade,
@@ -482,7 +480,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                     },
                                     child: Container(
                                       width: double.infinity,
-                                      constraints: BoxConstraints(
+                                      constraints: const BoxConstraints(
                                         maxWidth: 300.0,
                                       ),
                                       decoration: BoxDecoration(
@@ -492,7 +490,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                             BorderRadius.circular(12.0),
                                       ),
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 8.0, 16.0, 16.0),
                                         child: Column(
                                           mainAxisSize: MainAxisSize.max,
@@ -500,7 +498,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Align(
-                                              alignment: AlignmentDirectional(
+                                              alignment: const AlignmentDirectional(
                                                   0.0, 0.0),
                                               child: ClipRRect(
                                                 borderRadius:
@@ -514,7 +512,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                               ),
                                             ),
                                             Padding(
-                                              padding: EdgeInsetsDirectional
+                                              padding: const EdgeInsetsDirectional
                                                   .fromSTEB(
                                                       0.0, 16.0, 0.0, 0.0),
                                               child: Text(
@@ -544,7 +542,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                               ),
                                             ),
                                             Padding(
-                                              padding: EdgeInsetsDirectional
+                                              padding: const EdgeInsetsDirectional
                                                   .fromSTEB(0.0, 4.0, 0.0, 0.0),
                                               child: Text(
                                                 FFLocalizations.of(context)
@@ -582,7 +580,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                   ),
                                   Container(
                                     width: double.infinity,
-                                    constraints: BoxConstraints(
+                                    constraints: const BoxConstraints(
                                       maxWidth: 300.0,
                                     ),
                                     decoration: BoxDecoration(
@@ -591,7 +589,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           16.0, 8.0, 16.0, 16.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -600,7 +598,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                         children: [
                                           Align(
                                             alignment:
-                                                AlignmentDirectional(0.0, 0.0),
+                                                const AlignmentDirectional(0.0, 0.0),
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
@@ -614,7 +612,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 16.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -644,7 +642,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -680,7 +678,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                   ),
                                   Container(
                                     width: double.infinity,
-                                    constraints: BoxConstraints(
+                                    constraints: const BoxConstraints(
                                       maxWidth: 300.0,
                                     ),
                                     decoration: BoxDecoration(
@@ -689,7 +687,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           16.0, 8.0, 16.0, 16.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -698,7 +696,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                         children: [
                                           Align(
                                             alignment:
-                                                AlignmentDirectional(0.0, 0.0),
+                                                const AlignmentDirectional(0.0, 0.0),
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
@@ -712,7 +710,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 16.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -742,7 +740,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -778,7 +776,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                   ),
                                   Container(
                                     width: double.infinity,
-                                    constraints: BoxConstraints(
+                                    constraints: const BoxConstraints(
                                       maxWidth: 300.0,
                                     ),
                                     decoration: BoxDecoration(
@@ -787,7 +785,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           16.0, 8.0, 16.0, 16.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -796,7 +794,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                         children: [
                                           Align(
                                             alignment:
-                                                AlignmentDirectional(0.0, 0.0),
+                                                const AlignmentDirectional(0.0, 0.0),
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
@@ -810,7 +808,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 16.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -840,7 +838,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -876,7 +874,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                   ),
                                   Container(
                                     width: double.infinity,
-                                    constraints: BoxConstraints(
+                                    constraints: const BoxConstraints(
                                       maxWidth: 300.0,
                                     ),
                                     decoration: BoxDecoration(
@@ -885,7 +883,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           16.0, 8.0, 16.0, 16.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -894,7 +892,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                         children: [
                                           Align(
                                             alignment:
-                                                AlignmentDirectional(0.0, 0.0),
+                                                const AlignmentDirectional(0.0, 0.0),
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
@@ -908,7 +906,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 16.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -938,7 +936,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -974,7 +972,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                   ),
                                   Container(
                                     width: double.infinity,
-                                    constraints: BoxConstraints(
+                                    constraints: const BoxConstraints(
                                       maxWidth: 300.0,
                                     ),
                                     decoration: BoxDecoration(
@@ -983,7 +981,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                       borderRadius: BorderRadius.circular(12.0),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           16.0, 8.0, 16.0, 16.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -992,7 +990,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                         children: [
                                           Align(
                                             alignment:
-                                                AlignmentDirectional(0.0, 0.0),
+                                                const AlignmentDirectional(0.0, 0.0),
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(8.0),
@@ -1006,7 +1004,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 16.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -1036,7 +1034,7 @@ class _CatalogoVirtualWidgetState extends State<CatalogoVirtualWidget> {
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 4.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)

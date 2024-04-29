@@ -6,11 +6,9 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'clientes_model.dart';
 export 'clientes_model.dart';
 
@@ -53,8 +51,8 @@ class _ClientesWidgetState extends State<ClientesWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -73,8 +71,8 @@ class _ClientesWidgetState extends State<ClientesWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -93,8 +91,8 @@ class _ClientesWidgetState extends State<ClientesWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -113,8 +111,8 @@ class _ClientesWidgetState extends State<ClientesWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -153,7 +151,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
             child: WebNavWidget(
               colorBgDashboard: Colors.transparent,
               colorBgProdutos: Colors.transparent,
-              colorBgClientes: Color(0x2C7367F0),
+              colorBgClientes: const Color(0x2C7367F0),
               colorBgPedidos: Colors.transparent,
               colorBgMinhaLoja: Colors.transparent,
               colorBgPerfil: Colors.transparent,
@@ -206,7 +204,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                             FlutterFlowTheme.of(context).displaySmallFamily),
                       ),
                 ),
-                actions: [],
+                actions: const [],
                 centerTitle: false,
                 elevation: 0.0,
               )
@@ -226,7 +224,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                 child: WebNavWidget(
                   colorBgDashboard: Colors.transparent,
                   colorBgProdutos: Colors.transparent,
-                  colorBgClientes: Color(0x2D37C6DA),
+                  colorBgClientes: const Color(0x2D37C6DA),
                   colorBgPedidos: Colors.transparent,
                   colorBgMinhaLoja: Colors.transparent,
                   colorBgPerfil: Colors.transparent,
@@ -274,11 +272,11 @@ class _ClientesWidgetState extends State<ClientesWidget>
                   ))
                     Container(
                       width: double.infinity,
-                      decoration: BoxDecoration(),
+                      decoration: const BoxDecoration(),
                       child: Align(
-                        alignment: AlignmentDirectional(-1.0, 0.0),
+                        alignment: const AlignmentDirectional(-1.0, 0.0),
                         child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               24.0, 24.0, 24.0, 0.0),
                           child: InkWell(
                             splashColor: Colors.transparent,
@@ -299,20 +297,20 @@ class _ClientesWidgetState extends State<ClientesWidget>
                     ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(12.0, 1.0, 0.0, 0.0),
+                        const EdgeInsetsDirectional.fromSTEB(12.0, 1.0, 0.0, 0.0),
                     child: Container(
                       width: double.infinity,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).primaryBackground,
                       ),
-                      alignment: AlignmentDirectional(-1.0, 0.0),
+                      alignment: const AlignmentDirectional(-1.0, 0.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Expanded(
                             flex: 7,
                             child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   16.0, 16.0, 0.0, 16.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
@@ -342,7 +340,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                             Expanded(
                               flex: 4,
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 8.0, 16.0, 8.0),
                                 child: TextFormField(
                                   controller: _model.emailAddressTextController,
@@ -369,7 +367,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                         .bodyMedium
                                         .override(
                                           fontFamily: 'Lexend Deca',
-                                          color: Color(0xFF57636C),
+                                          color: const Color(0xFF57636C),
                                           fontSize: 14.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.normal,
@@ -385,21 +383,21 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                       borderRadius: BorderRadius.circular(40.0),
                                     ),
                                     focusedBorder: OutlineInputBorder(
-                                      borderSide: BorderSide(
+                                      borderSide: const BorderSide(
                                         color: Color(0x00000000),
                                         width: 2.0,
                                       ),
                                       borderRadius: BorderRadius.circular(40.0),
                                     ),
                                     errorBorder: OutlineInputBorder(
-                                      borderSide: BorderSide(
+                                      borderSide: const BorderSide(
                                         color: Color(0x00000000),
                                         width: 2.0,
                                       ),
                                       borderRadius: BorderRadius.circular(40.0),
                                     ),
                                     focusedErrorBorder: OutlineInputBorder(
-                                      borderSide: BorderSide(
+                                      borderSide: const BorderSide(
                                         color: Color(0x00000000),
                                         width: 2.0,
                                       ),
@@ -409,7 +407,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                     fillColor: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
                                     contentPadding:
-                                        EdgeInsetsDirectional.fromSTEB(
+                                        const EdgeInsetsDirectional.fromSTEB(
                                             24.0, 12.0, 20.0, 12.0),
                                     prefixIcon: Icon(
                                       Icons.search_rounded,
@@ -440,7 +438,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                             desktop: false,
                           ))
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 24.0, 0.0),
                               child: FlutterFlowIconButton(
                                 borderColor: Colors.transparent,
@@ -463,11 +461,11 @@ class _ClientesWidgetState extends State<ClientesWidget>
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(1.0, 0.0),
+                    alignment: const AlignmentDirectional(1.0, 0.0),
                     child: Builder(
                       builder: (context) => Padding(
                         padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 16.0, 0.0),
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 16.0, 0.0),
                         child: FFButtonWidget(
                           onPressed: () async {
                             await showDialog(
@@ -477,7 +475,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                   elevation: 0,
                                   insetPadding: EdgeInsets.zero,
                                   backgroundColor: Colors.transparent,
-                                  alignment: AlignmentDirectional(0.0, 1.0)
+                                  alignment: const AlignmentDirectional(0.0, 1.0)
                                       .resolve(Directionality.of(context)),
                                   child: GestureDetector(
                                     onTap: () => _model
@@ -485,11 +483,11 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                         ? FocusScope.of(context)
                                             .requestFocus(_model.unfocusNode)
                                         : FocusScope.of(context).unfocus(),
-                                    child: Container(
+                                    child: SizedBox(
                                       height:
                                           MediaQuery.sizeOf(context).height *
                                               0.8,
-                                      child: CadastrarClienteWidget(),
+                                      child: const CadastrarClienteWidget(),
                                     ),
                                   ),
                                 );
@@ -499,15 +497,15 @@ class _ClientesWidgetState extends State<ClientesWidget>
                           text: FFLocalizations.of(context).getText(
                             's0avx7mf' /* Cliente */,
                           ),
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.add,
                             size: 15.0,
                           ),
                           options: FFButtonOptions(
                             height: 40.0,
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 24.0, 0.0, 24.0, 0.0),
-                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                            iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
                             color: FlutterFlowTheme.of(context).primary,
                             textStyle: FlutterFlowTheme.of(context)
@@ -522,7 +520,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           .titleSmallFamily),
                                 ),
                             elevation: 3.0,
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: Colors.transparent,
                               width: 1.0,
                             ),
@@ -535,14 +533,14 @@ class _ClientesWidgetState extends State<ClientesWidget>
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                     child: ListView(
                       padding: EdgeInsets.zero,
                       shrinkWrap: true,
                       scrollDirection: Axis.vertical,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               16.0, 8.0, 16.0, 0.0),
                           child: InkWell(
                             splashColor: Colors.transparent,
@@ -553,7 +551,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               context.pushNamed(
                                 'detalhesCliente',
                                 extra: <String, dynamic>{
-                                  kTransitionInfoKey: TransitionInfo(
+                                  kTransitionInfoKey: const TransitionInfo(
                                     hasTransition: true,
                                     transitionType: PageTransitionType.fade,
                                     duration: Duration(milliseconds: 0),
@@ -566,7 +564,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
-                                boxShadow: [
+                                boxShadow: const [
                                   BoxShadow(
                                     blurRadius: 3.0,
                                     color: Color(0x20000000),
@@ -579,7 +577,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                 borderRadius: BorderRadius.circular(12.0),
                               ),
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 8.0, 12.0, 8.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -602,7 +600,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                         children: [
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -630,7 +628,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 2.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -657,7 +655,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -698,7 +696,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               animationsMap['containerOnPageLoadAnimation1']!),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               16.0, 8.0, 16.0, 0.0),
                           child: InkWell(
                             splashColor: Colors.transparent,
@@ -709,7 +707,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               context.pushNamed(
                                 'detalhesCliente',
                                 extra: <String, dynamic>{
-                                  kTransitionInfoKey: TransitionInfo(
+                                  kTransitionInfoKey: const TransitionInfo(
                                     hasTransition: true,
                                     transitionType: PageTransitionType.fade,
                                     duration: Duration(milliseconds: 0),
@@ -722,7 +720,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
-                                boxShadow: [
+                                boxShadow: const [
                                   BoxShadow(
                                     blurRadius: 3.0,
                                     color: Color(0x20000000),
@@ -735,7 +733,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                 borderRadius: BorderRadius.circular(12.0),
                               ),
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 8.0, 12.0, 8.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -758,7 +756,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                         children: [
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -786,7 +784,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 2.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -813,7 +811,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -854,7 +852,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               animationsMap['containerOnPageLoadAnimation2']!),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               16.0, 8.0, 16.0, 0.0),
                           child: InkWell(
                             splashColor: Colors.transparent,
@@ -865,7 +863,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               context.pushNamed(
                                 'detalhesCliente',
                                 extra: <String, dynamic>{
-                                  kTransitionInfoKey: TransitionInfo(
+                                  kTransitionInfoKey: const TransitionInfo(
                                     hasTransition: true,
                                     transitionType: PageTransitionType.fade,
                                     duration: Duration(milliseconds: 0),
@@ -878,7 +876,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                               decoration: BoxDecoration(
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
-                                boxShadow: [
+                                boxShadow: const [
                                   BoxShadow(
                                     blurRadius: 3.0,
                                     color: Color(0x20000000),
@@ -891,7 +889,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                 borderRadius: BorderRadius.circular(12.0),
                               ),
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 8.0, 12.0, 8.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -914,7 +912,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                         children: [
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -942,7 +940,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 2.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -969,7 +967,7 @@ class _ClientesWidgetState extends State<ClientesWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 0.0, 0.0, 0.0),
                                             child: Text(
                                               FFLocalizations.of(context)

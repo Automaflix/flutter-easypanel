@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import '/backend/schema/structs/index.dart';
-import 'backend/api_requests/api_manager.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'flutter_flow/flutter_flow_util.dart';
 
 class FFAppState extends ChangeNotifier {
   static FFAppState _instance = FFAppState._internal();
@@ -26,8 +23,8 @@ class FFAppState extends ChangeNotifier {
 
   DadosUserStruct _dadosUser = DadosUserStruct();
   DadosUserStruct get dadosUser => _dadosUser;
-  set dadosUser(DadosUserStruct _value) {
-    _dadosUser = _value;
+  set dadosUser(DadosUserStruct value) {
+    _dadosUser = value;
   }
 
   void updateDadosUserStruct(Function(DadosUserStruct) updateFn) {
@@ -36,8 +33,8 @@ class FFAppState extends ChangeNotifier {
 
   DadosLojaStruct _dadosLoja = DadosLojaStruct();
   DadosLojaStruct get dadosLoja => _dadosLoja;
-  set dadosLoja(DadosLojaStruct _value) {
-    _dadosLoja = _value;
+  set dadosLoja(DadosLojaStruct value) {
+    _dadosLoja = value;
   }
 
   void updateDadosLojaStruct(Function(DadosLojaStruct) updateFn) {

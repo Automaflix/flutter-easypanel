@@ -2,13 +2,10 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_button_tabbar.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'meus_pedidos_model.dart';
 export 'meus_pedidos_model.dart';
 
@@ -53,8 +50,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -72,8 +69,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(30.0, 0.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(30.0, 0.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -91,8 +88,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(30.0, 0.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(30.0, 0.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -110,8 +107,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(50.0, 0.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(50.0, 0.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -129,8 +126,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 30.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 30.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -149,8 +146,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -169,8 +166,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -189,8 +186,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -209,8 +206,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -229,8 +226,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -249,8 +246,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -268,8 +265,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 30.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 30.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -288,8 +285,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -308,8 +305,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -328,8 +325,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -348,8 +345,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -368,8 +365,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -388,8 +385,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -407,8 +404,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 30.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 30.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -427,8 +424,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -447,8 +444,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -467,8 +464,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -487,8 +484,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -507,8 +504,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -527,8 +524,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -546,8 +543,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 30.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 30.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -566,8 +563,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -586,8 +583,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -606,8 +603,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -626,8 +623,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -646,8 +643,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -666,8 +663,8 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -710,7 +707,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                 ),
                 child: Padding(
-                  padding: EdgeInsets.all(16.0),
+                  padding: const EdgeInsets.all(16.0),
                   child: Wrap(
                     spacing: 0.0,
                     runSpacing: 0.0,
@@ -726,7 +723,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 12.0, 0.0),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
@@ -764,12 +761,12 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                         ],
                       ),
                       Padding(
-                        padding: EdgeInsets.all(16.0),
+                        padding: const EdgeInsets.all(16.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 4.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
@@ -812,10 +809,10 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                   color: FlutterFlowTheme.of(context).primaryBackground,
                 ),
                 child: Align(
-                  alignment: AlignmentDirectional(-1.0, 0.0),
+                  alignment: const AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(24.0, 24.0, 24.0, 0.0),
+                        const EdgeInsetsDirectional.fromSTEB(24.0, 24.0, 24.0, 0.0),
                     child: InkWell(
                       splashColor: Colors.transparent,
                       focusColor: Colors.transparent,
@@ -848,7 +845,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 12.0, 1.0, 0.0, 0.0),
                             child: Container(
                               width: double.infinity,
@@ -856,9 +853,9 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                 color: FlutterFlowTheme.of(context)
                                     .primaryBackground,
                               ),
-                              alignment: AlignmentDirectional(-1.0, 0.0),
+                              alignment: const AlignmentDirectional(-1.0, 0.0),
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 16.0, 0.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -866,7 +863,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           4.0, 16.0, 0.0, 0.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
@@ -908,14 +905,14 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                               scrollDirection: Axis.horizontal,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       16.0, 12.0, 12.0, 12.0),
                                   child: Container(
                                     width: 230.0,
                                     decoration: BoxDecoration(
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
-                                      boxShadow: [
+                                      boxShadow: const [
                                         BoxShadow(
                                           blurRadius: 4.0,
                                           color: Color(0x34090F13),
@@ -933,7 +930,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 4.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -941,7 +938,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                           Container(
                                             width: double.infinity,
                                             height: 120.0,
-                                            decoration: BoxDecoration(
+                                            decoration: const BoxDecoration(
                                               color: Color(0xFFF9BE4B),
                                               borderRadius: BorderRadius.only(
                                                 bottomLeft:
@@ -953,7 +950,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                               ),
                                             ),
                                             child: Padding(
-                                              padding: EdgeInsets.all(12.0),
+                                              padding: const EdgeInsets.all(12.0),
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 mainAxisAlignment:
@@ -966,15 +963,15 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     width: 36.0,
                                                     height: 36.0,
                                                     decoration: BoxDecoration(
-                                                      color: Color(0x62FFFFFF),
+                                                      color: const Color(0x62FFFFFF),
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               12.0),
                                                     ),
                                                     alignment:
-                                                        AlignmentDirectional(
+                                                        const AlignmentDirectional(
                                                             0.0, 0.0),
-                                                    child: FaIcon(
+                                                    child: const FaIcon(
                                                       FontAwesomeIcons
                                                           .solidClock,
                                                       color: Colors.white,
@@ -1009,7 +1006,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 12.0, 12.0, 0.0),
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
@@ -1052,14 +1049,14 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       'containerOnPageLoadAnimation1']!),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       16.0, 12.0, 12.0, 12.0),
                                   child: Container(
                                     width: 230.0,
                                     decoration: BoxDecoration(
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
-                                      boxShadow: [
+                                      boxShadow: const [
                                         BoxShadow(
                                           blurRadius: 4.0,
                                           color: Color(0x34090F13),
@@ -1077,7 +1074,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 4.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -1085,7 +1082,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                           Container(
                                             width: double.infinity,
                                             height: 120.0,
-                                            decoration: BoxDecoration(
+                                            decoration: const BoxDecoration(
                                               color: Color(0xFF74CB48),
                                               borderRadius: BorderRadius.only(
                                                 bottomLeft:
@@ -1097,7 +1094,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                               ),
                                             ),
                                             child: Padding(
-                                              padding: EdgeInsets.all(12.0),
+                                              padding: const EdgeInsets.all(12.0),
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 mainAxisAlignment:
@@ -1110,15 +1107,15 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     width: 36.0,
                                                     height: 36.0,
                                                     decoration: BoxDecoration(
-                                                      color: Color(0x61FFFFFF),
+                                                      color: const Color(0x61FFFFFF),
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               12.0),
                                                     ),
                                                     alignment:
-                                                        AlignmentDirectional(
+                                                        const AlignmentDirectional(
                                                             0.0, 0.0),
-                                                    child: Icon(
+                                                    child: const Icon(
                                                       Icons
                                                           .attach_money_outlined,
                                                       color: Colors.white,
@@ -1153,7 +1150,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 12.0, 12.0, 0.0),
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
@@ -1175,7 +1172,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       'detalhesPedido',
                                                       extra: <String, dynamic>{
                                                         kTransitionInfoKey:
-                                                            TransitionInfo(
+                                                            const TransitionInfo(
                                                           hasTransition: true,
                                                           transitionType:
                                                               PageTransitionType
@@ -1222,13 +1219,13 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       'containerOnPageLoadAnimation2']!),
                                 ),
                                 Padding(
-                                  padding: EdgeInsets.all(12.0),
+                                  padding: const EdgeInsets.all(12.0),
                                   child: Container(
                                     width: 230.0,
                                     decoration: BoxDecoration(
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
-                                      boxShadow: [
+                                      boxShadow: const [
                                         BoxShadow(
                                           blurRadius: 4.0,
                                           color: Color(0x34090F13),
@@ -1246,7 +1243,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 4.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
@@ -1254,7 +1251,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                           Container(
                                             width: double.infinity,
                                             height: 120.0,
-                                            decoration: BoxDecoration(
+                                            decoration: const BoxDecoration(
                                               color: Color(0xFFF1416C),
                                               borderRadius: BorderRadius.only(
                                                 bottomLeft:
@@ -1266,7 +1263,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                               ),
                                             ),
                                             child: Padding(
-                                              padding: EdgeInsets.all(12.0),
+                                              padding: const EdgeInsets.all(12.0),
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 mainAxisAlignment:
@@ -1279,15 +1276,15 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     width: 36.0,
                                                     height: 36.0,
                                                     decoration: BoxDecoration(
-                                                      color: Color(0x62FFFFFF),
+                                                      color: const Color(0x62FFFFFF),
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               12.0),
                                                     ),
                                                     alignment:
-                                                        AlignmentDirectional(
+                                                        const AlignmentDirectional(
                                                             0.0, 0.0),
-                                                    child: Icon(
+                                                    child: const Icon(
                                                       Icons
                                                           .not_interested_outlined,
                                                       color: Colors.white,
@@ -1322,7 +1319,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 12.0, 12.0, 0.0),
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
@@ -1368,7 +1365,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 16.0, 12.0, 0.0, 12.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
@@ -1389,11 +1386,11 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                           ),
                           Expanded(
                             child: Container(
-                              decoration: BoxDecoration(),
+                              decoration: const BoxDecoration(),
                               child: Column(
                                 children: [
                                   Align(
-                                    alignment: Alignment(0.0, 0),
+                                    alignment: const Alignment(0.0, 0),
                                     child: FlutterFlowButtonTabBar(
                                       useToggleButtonStyle: false,
                                       labelStyle: FlutterFlowTheme.of(context)
@@ -1409,7 +1406,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     FlutterFlowTheme.of(context)
                                                         .titleMediumFamily),
                                           ),
-                                      unselectedLabelStyle: TextStyle(),
+                                      unselectedLabelStyle: const TextStyle(),
                                       labelColor: Colors.white,
                                       unselectedLabelColor:
                                           FlutterFlowTheme.of(context)
@@ -1422,9 +1419,9 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       borderRadius: 8.0,
                                       elevation: 0.0,
                                       buttonMargin:
-                                          EdgeInsetsDirectional.fromSTEB(
+                                          const EdgeInsetsDirectional.fromSTEB(
                                               8.0, 0.0, 8.0, 0.0),
-                                      padding: EdgeInsets.all(4.0),
+                                      padding: const EdgeInsets.all(4.0),
                                       tabs: [
                                         Tab(
                                           text: FFLocalizations.of(context)
@@ -1461,14 +1458,14 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                       children: [
                                         Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 12.0, 0.0, 0.0),
                                           child: ListView(
                                             padding: EdgeInsets.zero,
                                             scrollDirection: Axis.vertical,
                                             children: [
                                               Padding(
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         16.0, 12.0, 16.0, 12.0),
                                                 child: InkWell(
@@ -1485,7 +1482,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       'detalhesPedido',
                                                       extra: <String, dynamic>{
                                                         kTransitionInfoKey:
-                                                            TransitionInfo(
+                                                            const TransitionInfo(
                                                           hasTransition: true,
                                                           transitionType:
                                                               PageTransitionType
@@ -1502,7 +1499,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       color: FlutterFlowTheme
                                                               .of(context)
                                                           .secondaryBackground,
-                                                      boxShadow: [
+                                                      boxShadow: const [
                                                         BoxShadow(
                                                           blurRadius: 4.0,
                                                           color:
@@ -1526,7 +1523,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     ),
                                                     child: Padding(
                                                       padding:
-                                                          EdgeInsetsDirectional
+                                                          const EdgeInsetsDirectional
                                                               .fromSTEB(
                                                                   12.0,
                                                                   8.0,
@@ -1570,7 +1567,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             8.0,
                                                                             0.0,
@@ -1615,7 +1612,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             4.0,
@@ -1627,7 +1624,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           .max,
                                                                   children: [
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           0.0,
                                                                           12.0,
@@ -1648,7 +1645,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                         child:
                                                                             Padding(
                                                                           padding:
-                                                                              EdgeInsets.all(2.0),
+                                                                              const EdgeInsets.all(2.0),
                                                                           child:
                                                                               ClipRRect(
                                                                             borderRadius:
@@ -1665,7 +1662,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           4.0,
                                                                           8.0,
@@ -1708,7 +1705,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           ).animateOnPageLoad(
                                                                               animationsMap['textOnPageLoadAnimation3']!),
                                                                           Padding(
-                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
                                                                                 0.0,
                                                                                 4.0,
                                                                                 0.0,
@@ -1729,7 +1726,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           8.0,
                                                                           0.0,
                                                                           0.0,
@@ -1755,7 +1752,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             4.0,
@@ -1767,7 +1764,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           .max,
                                                                   children: [
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           0.0,
                                                                           12.0,
@@ -1788,7 +1785,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                         child:
                                                                             Padding(
                                                                           padding:
-                                                                              EdgeInsets.all(2.0),
+                                                                              const EdgeInsets.all(2.0),
                                                                           child:
                                                                               ClipRRect(
                                                                             borderRadius:
@@ -1805,7 +1802,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           4.0,
                                                                           8.0,
@@ -1848,7 +1845,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           ).animateOnPageLoad(
                                                                               animationsMap['textOnPageLoadAnimation6']!),
                                                                           Padding(
-                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
                                                                                 0.0,
                                                                                 4.0,
                                                                                 0.0,
@@ -1869,7 +1866,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           8.0,
                                                                           0.0,
                                                                           0.0,
@@ -1912,7 +1909,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Expanded(
                                                                 child: Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           8.0,
                                                                           0.0,
@@ -1945,7 +1942,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               Container(
                                                                 decoration:
                                                                     BoxDecoration(
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFFFEF8ED),
                                                                   borderRadius:
                                                                       BorderRadius
@@ -1954,12 +1951,12 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                 ),
                                                                 child: Align(
                                                                   alignment:
-                                                                      AlignmentDirectional(
+                                                                      const AlignmentDirectional(
                                                                           0.0,
                                                                           0.0),
                                                                   child:
                                                                       Padding(
-                                                                    padding: EdgeInsetsDirectional
+                                                                    padding: const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             12.0,
                                                                             8.0,
@@ -1978,7 +1975,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                             fontFamily:
                                                                                 FlutterFlowTheme.of(context).bodyMediumFamily,
                                                                             color:
-                                                                                Color(0xFFF9BE4B),
+                                                                                const Color(0xFFF9BE4B),
                                                                             letterSpacing:
                                                                                 0.0,
                                                                             fontWeight:
@@ -2000,7 +1997,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     'containerOnPageLoadAnimation4']!),
                                               ),
                                               Padding(
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         16.0, 12.0, 16.0, 12.0),
                                                 child: InkWell(
@@ -2017,7 +2014,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       'detalhesPedido',
                                                       extra: <String, dynamic>{
                                                         kTransitionInfoKey:
-                                                            TransitionInfo(
+                                                            const TransitionInfo(
                                                           hasTransition: true,
                                                           transitionType:
                                                               PageTransitionType
@@ -2034,7 +2031,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       color: FlutterFlowTheme
                                                               .of(context)
                                                           .secondaryBackground,
-                                                      boxShadow: [
+                                                      boxShadow: const [
                                                         BoxShadow(
                                                           blurRadius: 4.0,
                                                           color:
@@ -2058,7 +2055,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     ),
                                                     child: Padding(
                                                       padding:
-                                                          EdgeInsetsDirectional
+                                                          const EdgeInsetsDirectional
                                                               .fromSTEB(
                                                                   12.0,
                                                                   8.0,
@@ -2102,7 +2099,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             8.0,
                                                                             0.0,
@@ -2140,7 +2137,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                           ),
                                                           Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         0.0,
                                                                         4.0,
@@ -2152,7 +2149,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       .max,
                                                               children: [
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           0.0,
@@ -2175,7 +2172,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                     child:
                                                                         Padding(
                                                                       padding:
-                                                                          EdgeInsets.all(
+                                                                          const EdgeInsets.all(
                                                                               2.0),
                                                                       child:
                                                                           ClipRRect(
@@ -2196,7 +2193,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                   ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           4.0,
@@ -2250,7 +2247,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           animationsMap[
                                                                               'textOnPageLoadAnimation9']!),
                                                                       Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                                                             0.0,
                                                                             4.0,
                                                                             0.0,
@@ -2274,7 +2271,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                   ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           8.0,
                                                                           0.0,
@@ -2306,7 +2303,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                           ),
                                                           Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         0.0,
                                                                         4.0,
@@ -2318,7 +2315,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       .max,
                                                               children: [
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           0.0,
@@ -2341,7 +2338,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                     child:
                                                                         Padding(
                                                                       padding:
-                                                                          EdgeInsets.all(
+                                                                          const EdgeInsets.all(
                                                                               2.0),
                                                                       child:
                                                                           ClipRRect(
@@ -2362,7 +2359,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                   ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           4.0,
@@ -2416,7 +2413,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           animationsMap[
                                                                               'textOnPageLoadAnimation12']!),
                                                                       Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                                                             0.0,
                                                                             4.0,
                                                                             0.0,
@@ -2440,7 +2437,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                   ),
                                                                 ),
                                                                 Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           8.0,
                                                                           0.0,
@@ -2487,7 +2484,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Expanded(
                                                                 child: Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           8.0,
                                                                           0.0,
@@ -2520,7 +2517,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               Container(
                                                                 decoration:
                                                                     BoxDecoration(
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFFFEF8ED),
                                                                   borderRadius:
                                                                       BorderRadius
@@ -2529,12 +2526,12 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                 ),
                                                                 child: Align(
                                                                   alignment:
-                                                                      AlignmentDirectional(
+                                                                      const AlignmentDirectional(
                                                                           0.0,
                                                                           0.0),
                                                                   child:
                                                                       Padding(
-                                                                    padding: EdgeInsetsDirectional
+                                                                    padding: const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             12.0,
                                                                             8.0,
@@ -2553,7 +2550,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                             fontFamily:
                                                                                 FlutterFlowTheme.of(context).bodyMediumFamily,
                                                                             color:
-                                                                                Color(0xFFF9BE4B),
+                                                                                const Color(0xFFF9BE4B),
                                                                             letterSpacing:
                                                                                 0.0,
                                                                             fontWeight:
@@ -2579,14 +2576,14 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                         ),
                                         Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 12.0, 0.0, 0.0),
                                           child: ListView(
                                             padding: EdgeInsets.zero,
                                             scrollDirection: Axis.vertical,
                                             children: [
                                               Padding(
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         16.0, 12.0, 16.0, 12.0),
                                                 child: InkWell(
@@ -2603,7 +2600,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       'detalhesPedido',
                                                       extra: <String, dynamic>{
                                                         kTransitionInfoKey:
-                                                            TransitionInfo(
+                                                            const TransitionInfo(
                                                           hasTransition: true,
                                                           transitionType:
                                                               PageTransitionType
@@ -2620,7 +2617,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       color: FlutterFlowTheme
                                                               .of(context)
                                                           .secondaryBackground,
-                                                      boxShadow: [
+                                                      boxShadow: const [
                                                         BoxShadow(
                                                           blurRadius: 4.0,
                                                           color:
@@ -2644,7 +2641,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     ),
                                                     child: Padding(
                                                       padding:
-                                                          EdgeInsetsDirectional
+                                                          const EdgeInsetsDirectional
                                                               .fromSTEB(
                                                                   12.0,
                                                                   8.0,
@@ -2688,7 +2685,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             8.0,
                                                                             0.0,
@@ -2733,7 +2730,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             4.0,
@@ -2745,7 +2742,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           .max,
                                                                   children: [
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           0.0,
                                                                           12.0,
@@ -2766,7 +2763,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                         child:
                                                                             Padding(
                                                                           padding:
-                                                                              EdgeInsets.all(2.0),
+                                                                              const EdgeInsets.all(2.0),
                                                                           child:
                                                                               ClipRRect(
                                                                             borderRadius:
@@ -2783,7 +2780,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           4.0,
                                                                           8.0,
@@ -2826,7 +2823,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           ).animateOnPageLoad(
                                                                               animationsMap['textOnPageLoadAnimation15']!),
                                                                           Padding(
-                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
                                                                                 0.0,
                                                                                 4.0,
                                                                                 0.0,
@@ -2847,7 +2844,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           8.0,
                                                                           0.0,
                                                                           0.0,
@@ -2873,7 +2870,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             4.0,
@@ -2885,7 +2882,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           .max,
                                                                   children: [
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           0.0,
                                                                           12.0,
@@ -2906,7 +2903,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                         child:
                                                                             Padding(
                                                                           padding:
-                                                                              EdgeInsets.all(2.0),
+                                                                              const EdgeInsets.all(2.0),
                                                                           child:
                                                                               ClipRRect(
                                                                             borderRadius:
@@ -2923,7 +2920,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           4.0,
                                                                           8.0,
@@ -2966,7 +2963,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           ).animateOnPageLoad(
                                                                               animationsMap['textOnPageLoadAnimation18']!),
                                                                           Padding(
-                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
                                                                                 0.0,
                                                                                 4.0,
                                                                                 0.0,
@@ -2987,7 +2984,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           8.0,
                                                                           0.0,
                                                                           0.0,
@@ -3030,7 +3027,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Expanded(
                                                                 child: Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           8.0,
                                                                           0.0,
@@ -3063,7 +3060,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               Container(
                                                                 decoration:
                                                                     BoxDecoration(
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFFE8FFF3),
                                                                   borderRadius:
                                                                       BorderRadius
@@ -3072,12 +3069,12 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                 ),
                                                                 child: Align(
                                                                   alignment:
-                                                                      AlignmentDirectional(
+                                                                      const AlignmentDirectional(
                                                                           0.0,
                                                                           0.0),
                                                                   child:
                                                                       Padding(
-                                                                    padding: EdgeInsetsDirectional
+                                                                    padding: const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             12.0,
                                                                             8.0,
@@ -3096,7 +3093,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                             fontFamily:
                                                                                 FlutterFlowTheme.of(context).bodyMediumFamily,
                                                                             color:
-                                                                                Color(0xFF50CD89),
+                                                                                const Color(0xFF50CD89),
                                                                             letterSpacing:
                                                                                 0.0,
                                                                             fontWeight:
@@ -3122,14 +3119,14 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                         ),
                                         Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 12.0, 0.0, 0.0),
                                           child: ListView(
                                             padding: EdgeInsets.zero,
                                             scrollDirection: Axis.vertical,
                                             children: [
                                               Padding(
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         16.0, 12.0, 16.0, 12.0),
                                                 child: InkWell(
@@ -3146,7 +3143,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       'detalhesPedido',
                                                       extra: <String, dynamic>{
                                                         kTransitionInfoKey:
-                                                            TransitionInfo(
+                                                            const TransitionInfo(
                                                           hasTransition: true,
                                                           transitionType:
                                                               PageTransitionType
@@ -3163,7 +3160,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                       color: FlutterFlowTheme
                                                               .of(context)
                                                           .secondaryBackground,
-                                                      boxShadow: [
+                                                      boxShadow: const [
                                                         BoxShadow(
                                                           blurRadius: 4.0,
                                                           color:
@@ -3187,7 +3184,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                     ),
                                                     child: Padding(
                                                       padding:
-                                                          EdgeInsetsDirectional
+                                                          const EdgeInsetsDirectional
                                                               .fromSTEB(
                                                                   12.0,
                                                                   8.0,
@@ -3231,7 +3228,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             8.0,
                                                                             0.0,
@@ -3276,7 +3273,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             4.0,
@@ -3288,7 +3285,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           .max,
                                                                   children: [
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           0.0,
                                                                           12.0,
@@ -3309,7 +3306,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                         child:
                                                                             Padding(
                                                                           padding:
-                                                                              EdgeInsets.all(2.0),
+                                                                              const EdgeInsets.all(2.0),
                                                                           child:
                                                                               ClipRRect(
                                                                             borderRadius:
@@ -3326,7 +3323,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           4.0,
                                                                           8.0,
@@ -3369,7 +3366,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           ).animateOnPageLoad(
                                                                               animationsMap['textOnPageLoadAnimation21']!),
                                                                           Padding(
-                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
                                                                                 0.0,
                                                                                 4.0,
                                                                                 0.0,
@@ -3390,7 +3387,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           8.0,
                                                                           0.0,
                                                                           0.0,
@@ -3416,7 +3413,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               ),
                                                               Padding(
                                                                 padding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             4.0,
@@ -3428,7 +3425,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           .max,
                                                                   children: [
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           0.0,
                                                                           12.0,
@@ -3449,7 +3446,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                         child:
                                                                             Padding(
                                                                           padding:
-                                                                              EdgeInsets.all(2.0),
+                                                                              const EdgeInsets.all(2.0),
                                                                           child:
                                                                               ClipRRect(
                                                                             borderRadius:
@@ -3466,7 +3463,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           0.0,
                                                                           4.0,
                                                                           8.0,
@@ -3509,7 +3506,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                           ).animateOnPageLoad(
                                                                               animationsMap['textOnPageLoadAnimation24']!),
                                                                           Padding(
-                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
                                                                                 0.0,
                                                                                 4.0,
                                                                                 0.0,
@@ -3530,7 +3527,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                       ),
                                                                     ),
                                                                     Padding(
-                                                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                                                           8.0,
                                                                           0.0,
                                                                           0.0,
@@ -3573,7 +3570,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                             children: [
                                                               Expanded(
                                                                 child: Padding(
-                                                                  padding: EdgeInsetsDirectional
+                                                                  padding: const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           8.0,
                                                                           0.0,
@@ -3606,7 +3603,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                               Container(
                                                                 decoration:
                                                                     BoxDecoration(
-                                                                  color: Color(
+                                                                  color: const Color(
                                                                       0xFFFFF5F8),
                                                                   borderRadius:
                                                                       BorderRadius
@@ -3615,12 +3612,12 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                 ),
                                                                 child: Align(
                                                                   alignment:
-                                                                      AlignmentDirectional(
+                                                                      const AlignmentDirectional(
                                                                           0.0,
                                                                           0.0),
                                                                   child:
                                                                       Padding(
-                                                                    padding: EdgeInsetsDirectional
+                                                                    padding: const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             12.0,
                                                                             8.0,
@@ -3639,7 +3636,7 @@ class _MeusPedidosWidgetState extends State<MeusPedidosWidget>
                                                                             fontFamily:
                                                                                 FlutterFlowTheme.of(context).bodyMediumFamily,
                                                                             color:
-                                                                                Color(0xFFF1416C),
+                                                                                const Color(0xFFF1416C),
                                                                             letterSpacing:
                                                                                 0.0,
                                                                             fontWeight:

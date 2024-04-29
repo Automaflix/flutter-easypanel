@@ -6,12 +6,8 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:octo_image/octo_image.dart';
-import 'package:provider/provider.dart';
 import 'editar_perfil_lojista_model.dart';
 export 'editar_perfil_lojista_model.dart';
 
@@ -68,8 +64,8 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
             curve: Curves.easeInOut,
             delay: 250.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 70.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 70.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -101,7 +97,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
       child: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Color(0x1A000000),
         ),
         child: Column(
@@ -109,15 +105,15 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12.0),
               child: Container(
                 width: double.infinity,
-                constraints: BoxConstraints(
+                constraints: const BoxConstraints(
                   maxWidth: 670.0,
                 ),
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
-                  boxShadow: [
+                  boxShadow: const [
                     BoxShadow(
                       blurRadius: 3.0,
                       color: Color(0x33000000),
@@ -142,13 +138,13 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                         key: _model.formKey,
                         autovalidateMode: AutovalidateMode.always,
                         child: Padding(
-                          padding: EdgeInsets.all(24.0),
+                          padding: const EdgeInsets.all(24.0),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 12.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -163,7 +159,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                         children: [
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 0.0, 4.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -190,7 +186,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                           ),
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 0.0, 8.0),
                                             child: Text(
                                               FFLocalizations.of(context)
@@ -237,14 +233,14 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(0.0, 0.0),
+                                alignment: const AlignmentDirectional(0.0, 0.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 0.0, 16.0),
                                       child: Container(
                                         width: 120.0,
@@ -256,7 +252,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                         ),
                                         child: Stack(
                                           alignment:
-                                              AlignmentDirectional(0.0, 0.0),
+                                              const AlignmentDirectional(0.0, 0.0),
                                           children: [
                                             Column(
                                               mainAxisSize: MainAxisSize.max,
@@ -271,7 +267,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                                   size: 24.0,
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           0.0, 12.0, 0.0, 0.0),
                                                   child: Text(
@@ -299,7 +295,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           0.0, 4.0, 0.0, 0.0),
                                                   child: Text(
@@ -329,14 +325,14 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                               ],
                                             ),
                                             Padding(
-                                              padding: EdgeInsets.all(8.0),
+                                              padding: const EdgeInsets.all(8.0),
                                               child: ClipRRect(
                                                 borderRadius:
                                                     BorderRadius.circular(10.0),
                                                 child: CachedNetworkImage(
-                                                  fadeInDuration: Duration(
+                                                  fadeInDuration: const Duration(
                                                       milliseconds: 500),
-                                                  fadeOutDuration: Duration(
+                                                  fadeOutDuration: const Duration(
                                                       milliseconds: 500),
                                                   imageUrl: '',
                                                   width: double.infinity,
@@ -353,7 +349,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                 ),
                               ),
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     16.0, 12.0, 16.0, 0.0),
                                 child: TextFormField(
                                   controller: _model.nomeCompletoTextController,
@@ -411,7 +407,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                       ),
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
-                                    contentPadding: EdgeInsets.all(12.0),
+                                    contentPadding: const EdgeInsets.all(12.0),
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -432,7 +428,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                 ),
                               ),
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     16.0, 12.0, 16.0, 0.0),
                                 child: TextFormField(
                                   controller: _model.cpfTextController,
@@ -490,7 +486,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                       ),
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
-                                    contentPadding: EdgeInsets.all(12.0),
+                                    contentPadding: const EdgeInsets.all(12.0),
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -510,14 +506,14 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                 ),
                               ),
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.end,
                                   children: [
                                     Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           0.0, 0.0, 4.0, 0.0),
                                       child: FFButtonWidget(
                                         onPressed: () {
@@ -530,10 +526,10 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                         options: FFButtonOptions(
                                           height: 50.0,
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   32.0, 0.0, 32.0, 0.0),
                                           iconPadding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 0.0),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
@@ -554,7 +550,7 @@ class _EditarPerfilLojistaWidgetState extends State<EditarPerfilLojistaWidget>
                                                             .titleSmallFamily),
                                               ),
                                           elevation: 2.0,
-                                          borderSide: BorderSide(
+                                          borderSide: const BorderSide(
                                             color: Colors.transparent,
                                             width: 1.0,
                                           ),

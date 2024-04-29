@@ -1,8 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 
 import '/backend/schema/structs/index.dart';
@@ -10,12 +8,8 @@ import '/backend/schema/structs/index.dart';
 import '/auth/custom_auth/custom_auth_user_provider.dart';
 
 import '/index.dart';
-import '/main.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/lat_lng.dart';
-import '/flutter_flow/place.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import 'serialization_util.dart';
 
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
@@ -80,88 +74,88 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? HomeWidget() : LoginPageWidget(),
+          appStateNotifier.loggedIn ? const HomeWidget() : const LoginPageWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? HomeWidget() : LoginPageWidget(),
+              appStateNotifier.loggedIn ? const HomeWidget() : const LoginPageWidget(),
           routes: [
             FFRoute(
               name: 'Home',
               path: 'home',
-              builder: (context, params) => HomeWidget(),
+              builder: (context, params) => const HomeWidget(),
             ),
             FFRoute(
               name: 'Clientes',
               path: 'clientes',
-              builder: (context, params) => ClientesWidget(),
+              builder: (context, params) => const ClientesWidget(),
             ),
             FFRoute(
               name: 'Pedidos',
               path: 'pedidos',
-              builder: (context, params) => PedidosWidget(),
+              builder: (context, params) => const PedidosWidget(),
             ),
             FFRoute(
               name: 'Perfil',
               path: 'perfil',
-              builder: (context, params) => PerfilWidget(),
+              builder: (context, params) => const PerfilWidget(),
             ),
             FFRoute(
               name: 'detalhesPedido',
               path: 'detalhesPedido',
-              builder: (context, params) => DetalhesPedidoWidget(),
+              builder: (context, params) => const DetalhesPedidoWidget(),
             ),
             FFRoute(
               name: 'Produtos',
               path: 'produtos',
-              builder: (context, params) => ProdutosWidget(),
+              builder: (context, params) => const ProdutosWidget(),
             ),
             FFRoute(
               name: 'MinhaLoja',
               path: 'minhaloja',
-              builder: (context, params) => MinhaLojaWidget(),
+              builder: (context, params) => const MinhaLojaWidget(),
             ),
             FFRoute(
               name: 'detalhesCliente',
               path: 'detalhesCliente',
-              builder: (context, params) => DetalhesClienteWidget(),
+              builder: (context, params) => const DetalhesClienteWidget(),
             ),
             FFRoute(
               name: 'catalogoVirtual',
               path: 'catalogoVirtual',
-              builder: (context, params) => CatalogoVirtualWidget(),
+              builder: (context, params) => const CatalogoVirtualWidget(),
             ),
             FFRoute(
               name: 'detalhesProdutoCatalogo',
               path: 'detalhesProdutoCatalogo',
-              builder: (context, params) => DetalhesProdutoCatalogoWidget(),
+              builder: (context, params) => const DetalhesProdutoCatalogoWidget(),
             ),
             FFRoute(
               name: 'Checkout',
               path: 'checkout',
-              builder: (context, params) => CheckoutWidget(),
+              builder: (context, params) => const CheckoutWidget(),
             ),
             FFRoute(
               name: 'loginPage',
               path: 'loginPage',
-              builder: (context, params) => LoginPageWidget(),
+              builder: (context, params) => const LoginPageWidget(),
             ),
             FFRoute(
               name: 'cadastroUsuario',
               path: 'cadastroUsuario',
-              builder: (context, params) => CadastroUsuarioWidget(),
+              builder: (context, params) => const CadastroUsuarioWidget(),
             ),
             FFRoute(
               name: 'MeusPedidos',
               path: 'meusPedidos',
-              builder: (context, params) => MeusPedidosWidget(),
+              builder: (context, params) => const MeusPedidosWidget(),
             ),
             FFRoute(
               name: 'pagina_nao_encontrada',
               path: 'paginaNaoEncontrada',
-              builder: (context, params) => PaginaNaoEncontradaWidget(),
+              builder: (context, params) => const PaginaNaoEncontradaWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),
@@ -401,7 +395,7 @@ class TransitionInfo {
   final Duration duration;
   final Alignment? alignment;
 
-  static TransitionInfo appDefault() => TransitionInfo(hasTransition: false);
+  static TransitionInfo appDefault() => const TransitionInfo(hasTransition: false);
 }
 
 class RootPageContext {

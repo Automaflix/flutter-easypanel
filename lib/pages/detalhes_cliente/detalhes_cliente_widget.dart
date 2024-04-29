@@ -6,11 +6,9 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/upload_data.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'detalhes_cliente_model.dart';
 export 'detalhes_cliente_model.dart';
 
@@ -79,8 +77,8 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, -30.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, -30.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -99,8 +97,8 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
             curve: Curves.bounceOut,
             delay: 400.0.ms,
             duration: 300.0.ms,
-            begin: Offset(0.0, 10.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 10.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -119,8 +117,8 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 50.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 50.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -139,8 +137,8 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 50.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 50.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -159,8 +157,8 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 50.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 50.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -179,8 +177,8 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 50.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 50.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -219,7 +217,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Container(
-                    decoration: BoxDecoration(),
+                    decoration: const BoxDecoration(),
                     child: Visibility(
                       visible: responsiveVisibility(
                         context: context,
@@ -233,7 +231,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                           colorBgDashboard: Colors.transparent,
                           colorBgProdutos: Colors.transparent,
                           colorBgClientes: Colors.transparent,
-                          colorBgPedidos: Color(0x2D37C6DA),
+                          colorBgPedidos: const Color(0x2D37C6DA),
                           colorBgMinhaLoja: Colors.transparent,
                           colorBgPerfil: Colors.transparent,
                           iconDashboard: Icon(
@@ -277,14 +275,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                   ),
                   Flexible(
                     child: Align(
-                      alignment: AlignmentDirectional(0.0, -1.0),
+                      alignment: const AlignmentDirectional(0.0, -1.0),
                       child: Padding(
                         padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
+                            const EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                         child: Container(
                           width: double.infinity,
                           height: double.infinity,
-                          constraints: BoxConstraints(
+                          constraints: const BoxConstraints(
                             maxWidth: 1080.0,
                           ),
                           decoration: BoxDecoration(
@@ -344,14 +342,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 24.0, 16.0, 12.0),
                                         child: Container(
                                           width: double.infinity,
                                           decoration: BoxDecoration(
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryBackground,
-                                            boxShadow: [
+                                            boxShadow: const [
                                               BoxShadow(
                                                 blurRadius: 5.0,
                                                 color: Color(0x34111417),
@@ -366,7 +364,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                           ),
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 12.0, 0.0, 16.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
@@ -376,7 +374,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           16.0, 0.0, 0.0, 0.0),
                                                   child: Text(
@@ -408,16 +406,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                         ),
                                                   ),
                                                 ),
-                                                if (_model.uploadedLocalFile !=
-                                                        null &&
-                                                    (_model
+                                                if ((_model
                                                             .uploadedLocalFile
                                                             .bytes
                                                             ?.isNotEmpty ??
                                                         false))
                                                   Padding(
                                                     padding:
-                                                        EdgeInsetsDirectional
+                                                        const EdgeInsetsDirectional
                                                             .fromSTEB(16.0,
                                                                 12.0, 0.0, 0.0),
                                                     child: Row(
@@ -429,7 +425,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                       children: [
                                                         Stack(
                                                           alignment:
-                                                              AlignmentDirectional(
+                                                              const AlignmentDirectional(
                                                                   1.0, -1.0),
                                                           children: [
                                                             Card(
@@ -454,11 +450,11 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 child:
                                                                     CachedNetworkImage(
                                                                   fadeInDuration:
-                                                                      Duration(
+                                                                      const Duration(
                                                                           milliseconds:
                                                                               500),
                                                                   fadeOutDuration:
-                                                                      Duration(
+                                                                      const Duration(
                                                                           milliseconds:
                                                                               500),
                                                                   imageUrl:
@@ -472,7 +468,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                             ),
                                                             Padding(
                                                               padding:
-                                                                  EdgeInsets
+                                                                  const EdgeInsets
                                                                       .all(6.0),
                                                               child: Icon(
                                                                 Icons.close,
@@ -487,14 +483,12 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                       ],
                                                     ),
                                                   ),
-                                                if (_model.uploadedLocalFile ==
-                                                        null ||
-                                                    (_model.uploadedLocalFile
+                                                if ((_model.uploadedLocalFile
                                                             .bytes?.isEmpty ??
                                                         true))
                                                   Padding(
                                                     padding:
-                                                        EdgeInsetsDirectional
+                                                        const EdgeInsetsDirectional
                                                             .fromSTEB(
                                                                 16.0,
                                                                 12.0,
@@ -504,7 +498,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                       width: double.infinity,
                                                       decoration: BoxDecoration(
                                                         color:
-                                                            Color(0x127367F0),
+                                                            const Color(0x127367F0),
                                                         borderRadius:
                                                             BorderRadius
                                                                 .circular(8.0),
@@ -517,7 +511,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                       ),
                                                       child: Padding(
                                                         padding:
-                                                            EdgeInsetsDirectional
+                                                            const EdgeInsetsDirectional
                                                                 .fromSTEB(
                                                                     16.0,
                                                                     12.0,
@@ -537,7 +531,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                             ),
                                                             Padding(
                                                               padding:
-                                                                  EdgeInsetsDirectional
+                                                                  const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           0.0,
@@ -575,7 +569,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                             ),
                                                             Padding(
                                                               padding:
-                                                                  EdgeInsetsDirectional
+                                                                  const EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           0.0,
                                                                           0.0,
@@ -672,14 +666,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                               options:
                                                                   FFButtonOptions(
                                                                 height: 40.0,
-                                                                padding: EdgeInsetsDirectional
+                                                                padding: const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         24.0,
                                                                         0.0,
                                                                         24.0,
                                                                         0.0),
                                                                 iconPadding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             0.0,
@@ -706,7 +700,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                     ),
                                                                 elevation: 3.0,
                                                                 borderSide:
-                                                                    BorderSide(
+                                                                    const BorderSide(
                                                                   color: Colors
                                                                       .transparent,
                                                                   width: 1.0,
@@ -729,14 +723,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                             'containerOnPageLoadAnimation2']!),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 16.0, 12.0),
                                         child: Container(
                                           width: double.infinity,
                                           decoration: BoxDecoration(
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryBackground,
-                                            boxShadow: [
+                                            boxShadow: const [
                                               BoxShadow(
                                                 blurRadius: 5.0,
                                                 color: Color(0x34111417),
@@ -751,7 +745,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                           ),
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 12.0, 0.0, 16.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
@@ -761,7 +755,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           16.0, 0.0, 0.0, 0.0),
                                                   child: Text(
@@ -794,7 +788,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -879,7 +873,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -905,7 +899,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -990,7 +984,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1016,7 +1010,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -1101,7 +1095,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1135,14 +1129,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                             'containerOnPageLoadAnimation3']!),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 16.0, 12.0),
                                         child: Container(
                                           width: double.infinity,
                                           decoration: BoxDecoration(
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryBackground,
-                                            boxShadow: [
+                                            boxShadow: const [
                                               BoxShadow(
                                                 blurRadius: 5.0,
                                                 color: Color(0x34111417),
@@ -1157,7 +1151,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                           ),
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 12.0, 0.0, 16.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
@@ -1167,7 +1161,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           16.0, 0.0, 0.0, 0.0),
                                                   child: Text(
@@ -1200,7 +1194,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -1285,7 +1279,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1311,7 +1305,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -1396,7 +1390,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1428,14 +1422,14 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                             'containerOnPageLoadAnimation4']!),
                                       ),
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             16.0, 12.0, 16.0, 12.0),
                                         child: Container(
                                           width: double.infinity,
                                           decoration: BoxDecoration(
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryBackground,
-                                            boxShadow: [
+                                            boxShadow: const [
                                               BoxShadow(
                                                 blurRadius: 5.0,
                                                 color: Color(0x34111417),
@@ -1450,7 +1444,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                           ),
                                           child: Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 12.0, 0.0, 16.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
@@ -1460,7 +1454,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(
                                                           16.0, 0.0, 0.0, 0.0),
                                                   child: Text(
@@ -1499,7 +1493,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                     Expanded(
                                                       child: Padding(
                                                         padding:
-                                                            EdgeInsetsDirectional
+                                                            const EdgeInsetsDirectional
                                                                 .fromSTEB(
                                                                     16.0,
                                                                     12.0,
@@ -1595,7 +1589,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                           8.0),
                                                             ),
                                                             contentPadding:
-                                                                EdgeInsets.all(
+                                                                const EdgeInsets.all(
                                                                     12.0),
                                                           ),
                                                           style: FlutterFlowTheme
@@ -1624,13 +1618,13 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                     ),
                                                     Padding(
                                                       padding:
-                                                          EdgeInsetsDirectional
+                                                          const EdgeInsetsDirectional
                                                               .fromSTEB(
                                                                   0.0,
                                                                   12.0,
                                                                   16.0,
                                                                   0.0),
-                                                      child: Container(
+                                                      child: SizedBox(
                                                         width:
                                                             MediaQuery.sizeOf(
                                                                         context)
@@ -1726,7 +1720,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                           8.0),
                                                             ),
                                                             contentPadding:
-                                                                EdgeInsets.all(
+                                                                const EdgeInsets.all(
                                                                     12.0),
                                                           ),
                                                           style: FlutterFlowTheme
@@ -1756,7 +1750,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ],
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -1841,7 +1835,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1867,7 +1861,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -1952,7 +1946,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1978,7 +1972,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                   ),
                                                 ),
                                                 Padding(
-                                                  padding: EdgeInsetsDirectional
+                                                  padding: const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 12.0,
                                                           16.0, 0.0),
                                                   child: TextFormField(
@@ -2063,7 +2057,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                 .circular(8.0),
                                                       ),
                                                       contentPadding:
-                                                          EdgeInsets.all(12.0),
+                                                          const EdgeInsets.all(12.0),
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -2103,7 +2097,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                         children: [
                                           Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 24.0, 0.0, 44.0),
                                             child: FFButtonWidget(
                                               onPressed: () async {
@@ -2116,11 +2110,11 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                               options: FFButtonOptions(
                                                 width: 270.0,
                                                 height: 50.0,
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         0.0, 0.0, 0.0, 0.0),
                                                 iconPadding:
-                                                    EdgeInsetsDirectional
+                                                    const EdgeInsetsDirectional
                                                         .fromSTEB(
                                                             0.0, 0.0, 0.0, 0.0),
                                                 color:
@@ -2144,7 +2138,7 @@ class _DetalhesClienteWidgetState extends State<DetalhesClienteWidget>
                                                                       .titleMediumFamily),
                                                         ),
                                                 elevation: 3.0,
-                                                borderSide: BorderSide(
+                                                borderSide: const BorderSide(
                                                   color: Colors.transparent,
                                                   width: 1.0,
                                                 ),

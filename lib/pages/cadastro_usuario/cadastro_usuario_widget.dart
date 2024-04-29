@@ -6,10 +6,8 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'cadastro_usuario_model.dart';
 export 'cadastro_usuario_model.dart';
 
@@ -61,15 +59,15 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
           ScaleEffect(
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.9, 0.9),
-            end: Offset(1.0, 1.0),
+            begin: const Offset(0.9, 0.9),
+            end: const Offset(1.0, 1.0),
           ),
         ],
       ),
@@ -88,8 +86,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 40.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 40.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -108,8 +106,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 50.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 50.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -128,8 +126,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 200.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 40.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 40.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -148,8 +146,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 200.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 40.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 40.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -168,8 +166,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 200.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 40.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 40.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -188,8 +186,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 200.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 50.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 50.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -208,8 +206,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 300.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 80.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 80.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -228,8 +226,8 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
             curve: Curves.easeInOut,
             delay: 1000.0.ms,
             duration: 600.0.ms,
-            begin: Offset(0.0, 40.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 40.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -263,28 +261,28 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
         body: Stack(
           children: [
             Align(
-              alignment: AlignmentDirectional(0.0, 0.0),
+              alignment: const AlignmentDirectional(0.0, 0.0),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).overlay,
                 ),
-                alignment: AlignmentDirectional(0.0, 1.0),
+                alignment: const AlignmentDirectional(0.0, 1.0),
                 child: Align(
-                  alignment: AlignmentDirectional(0.0, 0.0),
+                  alignment: const AlignmentDirectional(0.0, 0.0),
                   child: SingleChildScrollView(
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Container(
                           width: double.infinity,
-                          constraints: BoxConstraints(
+                          constraints: const BoxConstraints(
                             maxWidth: 530.0,
                           ),
-                          decoration: BoxDecoration(),
+                          decoration: const BoxDecoration(),
                           child: Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 20.0, 0.0, 20.0, 0.0),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
@@ -292,7 +290,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 0.0, 0.0, 30.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -328,7 +326,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                 ).animateOnPageLoad(
                                     animationsMap['textOnPageLoadAnimation1']!),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 4.0, 0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
@@ -352,7 +350,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                       'textOnPageLoadAnimation2']!),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 16.0, 0.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -361,7 +359,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                       Expanded(
                                         child: Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 16.0, 0.0, 0.0),
                                           child: TextFormField(
                                             controller: _model
@@ -418,7 +416,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                     BorderRadius.circular(8.0),
                                               ),
                                               focusedBorder: OutlineInputBorder(
-                                                borderSide: BorderSide(
+                                                borderSide: const BorderSide(
                                                   color: Color(0xFF7253C5),
                                                   width: 2.0,
                                                 ),
@@ -451,7 +449,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                   FlutterFlowTheme.of(context)
                                                       .primaryBackground,
                                               contentPadding:
-                                                  EdgeInsetsDirectional
+                                                  const EdgeInsetsDirectional
                                                       .fromSTEB(16.0, 24.0, 0.0,
                                                           24.0),
                                             ),
@@ -488,7 +486,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                   children: [
                                     Expanded(
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             0.0, 16.0, 0.0, 0.0),
                                         child: TextFormField(
                                           controller:
@@ -545,7 +543,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                   BorderRadius.circular(8.0),
                                             ),
                                             focusedBorder: OutlineInputBorder(
-                                              borderSide: BorderSide(
+                                              borderSide: const BorderSide(
                                                 color: Color(0xFF7253C5),
                                                 width: 2.0,
                                               ),
@@ -578,7 +576,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                 FlutterFlowTheme.of(context)
                                                     .primaryBackground,
                                             contentPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 24.0, 0.0, 24.0),
                                           ),
                                           style: FlutterFlowTheme.of(context)
@@ -612,7 +610,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                   children: [
                                     Expanded(
                                       child: Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             0.0, 16.0, 0.0, 0.0),
                                         child: TextFormField(
                                           controller:
@@ -668,7 +666,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                   BorderRadius.circular(8.0),
                                             ),
                                             focusedBorder: OutlineInputBorder(
-                                              borderSide: BorderSide(
+                                              borderSide: const BorderSide(
                                                 color: Color(0xFF7253C5),
                                                 width: 2.0,
                                               ),
@@ -701,7 +699,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                 FlutterFlowTheme.of(context)
                                                     .primaryBackground,
                                             contentPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 24.0, 0.0, 24.0),
                                           ),
                                           style: FlutterFlowTheme.of(context)
@@ -730,7 +728,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                   ],
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 16.0, 0.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -793,7 +791,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                   BorderRadius.circular(8.0),
                                             ),
                                             focusedBorder: OutlineInputBorder(
-                                              borderSide: BorderSide(
+                                              borderSide: const BorderSide(
                                                 color: Color(0xFF7253C5),
                                                 width: 2.0,
                                               ),
@@ -801,7 +799,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                   BorderRadius.circular(8.0),
                                             ),
                                             errorBorder: OutlineInputBorder(
-                                              borderSide: BorderSide(
+                                              borderSide: const BorderSide(
                                                 color: Color(0x00000000),
                                                 width: 2.0,
                                               ),
@@ -810,7 +808,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                             ),
                                             focusedErrorBorder:
                                                 OutlineInputBorder(
-                                              borderSide: BorderSide(
+                                              borderSide: const BorderSide(
                                                 color: Color(0x00000000),
                                                 width: 2.0,
                                               ),
@@ -822,7 +820,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                 FlutterFlowTheme.of(context)
                                                     .primaryBackground,
                                             contentPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     16.0, 24.0, 24.0, 24.0),
                                             suffixIcon: InkWell(
                                               onTap: () => setState(
@@ -869,14 +867,14 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 16.0, 0.0, 0.0),
                                   child: Container(
-                                    decoration: BoxDecoration(),
+                                    decoration: const BoxDecoration(),
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 24.0, 0.0, 0.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -884,7 +882,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                     children: [
                                       FFButtonWidget(
                                         onPressed: () async {
-                                          var _shouldSetState = false;
+                                          var shouldSetState = false;
                                           _model.createUser = await NOitoNGroup
                                               .createUserCall
                                               .call(
@@ -898,7 +896,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                 .senhaCadastroTextController
                                                 .text,
                                           );
-                                          _shouldSetState = true;
+                                          shouldSetState = true;
                                           if ((_model.createUser?.succeeded ??
                                               true)) {
                                             _model.createLogin =
@@ -910,7 +908,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                   .senhaCadastroTextController
                                                   .text,
                                             );
-                                            _shouldSetState = true;
+                                            shouldSetState = true;
                                             GoRouter.of(context)
                                                 .prepareAuthEvent();
                                             await authManager.signIn(
@@ -983,14 +981,14 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                     ''),
                                               ),
                                             );
-                                            _shouldSetState = true;
+                                            shouldSetState = true;
 
                                             context.pushNamedAuth(
                                               'Home',
                                               context.mounted,
                                               extra: <String, dynamic>{
                                                 kTransitionInfoKey:
-                                                    TransitionInfo(
+                                                    const TransitionInfo(
                                                   hasTransition: true,
                                                   transitionType:
                                                       PageTransitionType.fade,
@@ -1000,8 +998,9 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                               },
                                             );
 
-                                            if (_shouldSetState)
+                                            if (shouldSetState) {
                                               setState(() {});
+                                            }
                                             return;
                                           } else {
                                             await showDialog(
@@ -1009,26 +1008,27 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                               builder: (alertDialogContext) {
                                                 return AlertDialog(
                                                   title:
-                                                      Text('Erro ao cadastrar'),
-                                                  content: Text(
+                                                      const Text('Erro ao cadastrar'),
+                                                  content: const Text(
                                                       'Tente novamente por favor!'),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () =>
                                                           Navigator.pop(
                                                               alertDialogContext),
-                                                      child: Text('Ok'),
+                                                      child: const Text('Ok'),
                                                     ),
                                                   ],
                                                 );
                                               },
                                             );
-                                            if (_shouldSetState)
+                                            if (shouldSetState) {
                                               setState(() {});
+                                            }
                                             return;
                                           }
 
-                                          if (_shouldSetState) setState(() {});
+                                          if (shouldSetState) setState(() {});
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
@@ -1038,10 +1038,10 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                           width: 190.0,
                                           height: 50.0,
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 0.0),
                                           iconPadding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 0.0),
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
@@ -1062,7 +1062,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                             .titleMediumFamily),
                                               ),
                                           elevation: 2.0,
-                                          borderSide: BorderSide(
+                                          borderSide: const BorderSide(
                                             color: Colors.transparent,
                                             width: 1.0,
                                           ),
@@ -1075,7 +1075,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                   ),
                                 ),
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 24.0, 0.0, 24.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
@@ -1115,12 +1115,12 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                           width: 70.0,
                                           height: 30.0,
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 0.0),
                                           iconPadding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 0.0),
-                                          color: Color(0x00FFFFFF),
+                                          color: const Color(0x00FFFFFF),
                                           textStyle: FlutterFlowTheme.of(
                                                   context)
                                               .bodyMedium
@@ -1141,7 +1141,7 @@ class _CadastroUsuarioWidgetState extends State<CadastroUsuarioWidget>
                                                             .bodyMediumFamily),
                                               ),
                                           elevation: 0.0,
-                                          borderSide: BorderSide(
+                                          borderSide: const BorderSide(
                                             color: Colors.transparent,
                                             width: 1.0,
                                           ),
